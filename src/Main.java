@@ -9,7 +9,7 @@ public class Main{
 
     static void test(int flag){
         new ArrayList<Integer>().add(10);
-
+        // 注释
         int a = 0;
         if (flag == 1){a=1;}
 
