@@ -1,4 +1,4 @@
-package com.test.biz.impl;
+package com.it.order.biz.impl;
 
 public class UserBiz {
 

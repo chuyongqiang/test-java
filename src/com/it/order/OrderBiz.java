@@ -1,4 +1,4 @@
-package com.test;
+package com.it.order;
 
 public interface OrderBiz {
 

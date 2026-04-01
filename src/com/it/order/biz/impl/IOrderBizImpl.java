@@ -1,6 +1,6 @@
-package com.test.biz.impl;
+package com.it.order.biz.impl;
 
-import com.test.OrderBiz;
+import com.it.order.OrderBiz;
 
 public class IOrderBizImpl implements OrderBiz {
 
