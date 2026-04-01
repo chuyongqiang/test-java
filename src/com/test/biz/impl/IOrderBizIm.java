@@ -2,10 +2,9 @@ package com.test.biz.impl;
 
 import com.test.OrderBiz;
 
-public class OrderBizIm implements OrderBiz {
+public class IOrderBizIm implements OrderBiz {
 
-    @AutoWired
-    public UserBiz userBiz;
+    public UserBiz userBiz = new UserBiz();
 
     public void getOrderno() {
         System.out.println(userBiz.getUserName());
