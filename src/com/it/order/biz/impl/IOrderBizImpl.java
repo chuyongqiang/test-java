@@ -6,8 +6,8 @@ public class IOrderBizImpl implements OrderBiz {
 
     public UserBiz userBiz = new UserBiz();
 
-    public void getOrderno() {
-        System.out.println(userBiz.getUserName());
+    public String getOrderno() {
+      return userBiz.getUserName();
     }
 
 
