@@ -1,7 +1,9 @@
+package com.test.biz;
 
 
+import com.test.controller.IndexController;
 
-public class OrderBiz{
+public class OrderBizImpl {
 
     @AutoWired
     private IndexController indexController;
@@ -9,9 +11,10 @@ public class OrderBiz{
     @Autowired
     public SiteDao siteDao;
 
-    @Override
     public void doSomething() {
         indexController.index();
+
+        siteDao.insert(new User());
     }
 
 
